@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>forms</title>
+    <style>
+        .center-text {
+            text-align: center;
+        }
+
+        .profile-card {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+    </style>
+
+
+<body>
+    <h1>LAB ACTIVITY 7: HTML Forms</h1>
+    <form action="#" method="post">
+        <hr><br>
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" minlength="3"
+                maxlength="100">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="studentid">Student ID:</label>
+            <input type="text" id="studentid" name="studentid" placeholder="25-xxxx-xxx" required minlength="6"
+                maxlength="20">
+        </div>
+
+        <br><br>
+        <hr><br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="sample@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for"password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required
+                minlength="6" maxlength="100">
+        </div>
+
+        <br>
+
+        <label for"password">Birthday: </label>
+        <input type="date" id="birthday name=" birthday" placeholder="Enter password" required minlength="6">
+        </div>
+        <br>
+
+        <br>
+        <div>
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="male">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" required>
+            <label for="male">Other</label>
+
+        </div><br>
+        <div>
+            <label>Program</label>
+            <input type="program" id="program" name="program" placeholder="Enter your program" required>
+        </div>
+
+        <div>
+            <label>Address</label>
+            <input type="address" id="address name=" address" placeholder="Enter your address" required>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br><br>
+        <hr>
+        <div class="form-group">
+            <label for="comments">Comments / Bio</label>
+            <textarea id="comments" name="comments" rows="3"
+                placeholder="Any additional comments or notes..."></textarea>
+        </div>
+
+    </form>
+
+
+</body>
