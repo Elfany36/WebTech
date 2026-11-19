@@ -1,0 +1,2748 @@
+commit 8948bbc13a54fea799133bdb6f032e6c9d603f9a
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 12:25:32 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 12:25:32 +0000
+
+    Html
+
+diff --git a/MY-PORTFOLIO/about.html b/MY-PORTFOLIO/about.html
+index 0673e64..4c4ba2d 100644
+--- a/MY-PORTFOLIO/about.html
++++ b/MY-PORTFOLIO/about.html
+@@ -7,14 +7,15 @@
+ <body>
+     <header>
+         <nav>
+-            <a href="index.html">Home</a>
+-            <a href="skills.html">Skills</a>
+-            <a href="education.html">Education</a>
++            <a href="index.html">Home</a> |
++            <a href="about.html">About</a> |
++            <a href="education.html">Education</a> |
++            <a href="skills.html">Skills</a> |
+             <a href="contact.html">Contact</a>
+         </nav>
+     </header>
+      <main>
+-        
++
+     <section>
+       <h2>About Me</h2>
+       <article>
+diff --git a/MY-PORTFOLIO/contact.html b/MY-PORTFOLIO/contact.html
+new file mode 100644
+index 0000000..6bc1b1a
+--- /dev/null
++++ b/MY-PORTFOLIO/contact.html
+@@ -0,0 +1,49 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++    <h1>My Personal Web Portfolio</h1>
++    <nav>
++        <a href="index.html">Home</a> |
++        <a href="about.html">About</a> |
++        <a href="education.html">Education</a> |
++        <a href="skills.html">Skills</a> |
++        <a href="contact.html">Contact</a>
++    </nav>
++    <hr>
++  </header>
++
++  <main>
++    <section>
++      <h2>Contact Me</h2>
++
++      <article>
++        <form action="#" method="post">
++          <label for="name">Name:</label><br>
++          <input type="text" id="name" name="name">
++
++          <br><br>
++
++          <label for="email">Email:</label><br>
++          <input type="email" id="email" name="email">
++
++          <br><br>
++          
++          <label for="message">Message:</label><br>
++          <textarea id="message" name="message" rows="4" cols="30"></textarea>
++          <br><br>
++          <input type="submit" value="Send">
++          <input type="reset" value="Clear">
++          
++        </form>
++      </article>
++    </section>
++  </main>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/education.html b/MY-PORTFOLIO/education.html
+index 7b7ec9c..0fb80d3 100644
+--- a/MY-PORTFOLIO/education.html
++++ b/MY-PORTFOLIO/education.html
+@@ -9,9 +9,10 @@
+ 
+ <header>
+     <nav>
+-        <a href="index.html">Home</a>
+-        <a href="about.html">About</a>
+-        <a href="skills.html">Skills</a>
++        <a href="index.html">Home</a> |
++        <a href="about.html">About</a> |
++        <a href="education.html">Education</a> |
++        <a href="skills.html">Skills</a> |
+         <a href="contact.html">Contact</a>
+     </nav>
+ </header>
+diff --git a/MY-PORTFOLIO/index.html b/MY-PORTFOLIO/index.html
+index 869ed6f..37cdba7 100644
+--- a/MY-PORTFOLIO/index.html
++++ b/MY-PORTFOLIO/index.html
+@@ -19,11 +19,11 @@
+   <header>
+     <h1>My Personal Web Portfolio</h1>
+     <nav>
+-      <a href="index.html">HOME</a> |
+-      <a href="about.html">ABOUT</a> |
+-      <a href="education.html">EDUCATION</a> |
+-      <a href="skills.html">SKILLS</a> |
+-      <a href="contact.html">CONTACT</a>
++        <a href="index.html">Home</a> |
++        <a href="about.html">About</a> |
++        <a href="education.html">Education</a> |
++        <a href="skills.html">Skills</a> |
++        <a href="contact.html">Contact</a>
+     </nav>
+     <hr>
+   </header>
+diff --git a/MY-PORTFOLIO/skills.html b/MY-PORTFOLIO/skills.html
+index 00226d8..c22a387 100644
+--- a/MY-PORTFOLIO/skills.html
++++ b/MY-PORTFOLIO/skills.html
+@@ -8,9 +8,10 @@
+ <body>
+     <header>
+     <nav>
+-        <a href="index.html">Home</a>
+-        <a href="about.html">About</a>
+-        <a href="skills.html">Skills</a>
++        <a href="index.html">Home</a> |
++        <a href="about.html">About</a> |
++        <a href="education.html">Education</a> |
++        <a href="skills.html">Skills</a> |
+         <a href="contact.html">Contact</a>
+     </nav>
+ </header>
+@@ -20,7 +21,7 @@
+       <article>
+         <ul>
+           <li>HTML</li>
+-          <li>CSS (learning)</li>
++          <li>CSS</li>
+           <li>Problem Solving</li>
+           <li>Teamwork</li>
+         </ul>
+
+commit e226058fc7fdfdfb6eaa3225d4f8b4cf6a8d0e55
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 12:18:18 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 12:18:18 +0000
+
+    Html
+
+diff --git a/MY-PORTFOLIO/about.html b/MY-PORTFOLIO/about.html
+new file mode 100644
+index 0000000..0673e64
+--- /dev/null
++++ b/MY-PORTFOLIO/about.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <title>About</title>
++<body>
++    <header>
++        <nav>
++            <a href="index.html">Home</a>
++            <a href="skills.html">Skills</a>
++            <a href="education.html">Education</a>
++            <a href="contact.html">Contact</a>
++        </nav>
++    </header>
++     <main>
++        
++    <section>
++      <h2>About Me</h2>
++      <article>
++        <img src="MY-PORTFOLIO/images/profile.jpg" alt="My favorite place" width="250">
++        <p>My name is Ken Fabros I am a student who loves learning about technology and web development.</p>
++      </article>
++      
++      <h2>My Hobby</h2>
++      <article>
++        <img src="MY-PORTFOLIO/images/hobby.jpg" alt="My hobby" width="250">
++        <p>I do like looking at beautiful places</p>
++    </section>
++
++    <h2>Where i studied</h2>
++      <article>
++        <img src="MY-PORTFOLIO/images/school.jpg" alt="My favorite place" width="250">
++      </article>
++    </section>
++
++</body>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/education.html b/MY-PORTFOLIO/education.html
+new file mode 100644
+index 0000000..7b7ec9c
+--- /dev/null
++++ b/MY-PORTFOLIO/education.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Education</title>
++</head>
++<body>
++
++<header>
++    <nav>
++        <a href="index.html">Home</a>
++        <a href="about.html">About</a>
++        <a href="skills.html">Skills</a>
++        <a href="contact.html">Contact</a>
++    </nav>
++</header>
++
++    <h2></h2>
++
++    <main>
++        <article>
++            <table border="1" cellpadding="8">
++                <tr>
++                    <th>Level</th>
++                    <th>School</th>
++                    <th>Year</th>
++                </tr>
++
++                <tr>
++                    <td>Elementary</td>
++                    <td>Emilio Aguinaldo</td>
++                    <td>2013</td>
++                </tr>
++
++                <tr>
++                    <td>High School</td>
++                    <td>PCNHS</td>
++                    <td>2023</td>
++                </tr>
++                <tr>
++                    <td>Senior High</td>
++                    <td>UC</td>
++                    <td>2023-2025</td>
++                </tr>
++                <tr>
++                    <td>College</td>
++                    <td>UC</td>
++                    <td>2025-Current</td>
++                </tr>
++            </table>
++        </article>
++    </main>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/images/hobby.jpg b/MY-PORTFOLIO/images/hobby.jpg
+new file mode 100644
+index 0000000..d986b38
+Binary files /dev/null and b/MY-PORTFOLIO/images/hobby.jpg differ
+diff --git a/MY-PORTFOLIO/images/profile.jpg b/MY-PORTFOLIO/images/profile.jpg
+new file mode 100644
+index 0000000..d986b38
+Binary files /dev/null and b/MY-PORTFOLIO/images/profile.jpg differ
+diff --git a/MY-PORTFOLIO/images/school.jpg b/MY-PORTFOLIO/images/school.jpg
+new file mode 100644
+index 0000000..d986b38
+Binary files /dev/null and b/MY-PORTFOLIO/images/school.jpg differ
+diff --git a/MY-PORTFOLIO/index.html b/MY-PORTFOLIO/index.html
+new file mode 100644
+index 0000000..869ed6f
+--- /dev/null
++++ b/MY-PORTFOLIO/index.html
+@@ -0,0 +1,49 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <title>My First Web Page</title>
++</head>
++
++<body>
++    <!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>My Personal Web Portfolio - Home</title>
++</head>
++<body>
++
++  <header>
++    <h1>My Personal Web Portfolio</h1>
++    <nav>
++      <a href="index.html">HOME</a> |
++      <a href="about.html">ABOUT</a> |
++      <a href="education.html">EDUCATION</a> |
++      <a href="skills.html">SKILLS</a> |
++      <a href="contact.html">CONTACT</a>
++    </nav>
++    <hr>
++  </header>
++
++  <main>
++    <section>
++      <h2>Welcome</h2>
++      <img src="MY-PORTFOLIO/images/profile.jpg" alt="Profile photo" width="200">
++      <p>Hello! Welcome to my portfolio website.</p>
++    </section>
++
++    <section>
++      <h2>Website Contents</h2>
++      <ul>
++        <li><a href="about.html">About Me</a></li>
++        <li><a href="education.html">Education</a></li>
++        <li><a href="skills.html">Skills</a></li>
++        <li><a href="contact.html">Contact Me</a></li>
++      </ul>
++    </section>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/skills.html b/MY-PORTFOLIO/skills.html
+new file mode 100644
+index 0000000..00226d8
+--- /dev/null
++++ b/MY-PORTFOLIO/skills.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header>
++    <nav>
++        <a href="index.html">Home</a>
++        <a href="about.html">About</a>
++        <a href="skills.html">Skills</a>
++        <a href="contact.html">Contact</a>
++    </nav>
++</header>
++    <main>
++    <section>
++      <h2>My Skills</h2>
++      <article>
++        <ul>
++          <li>HTML</li>
++          <li>CSS (learning)</li>
++          <li>Problem Solving</li>
++          <li>Teamwork</li>
++        </ul>
++      </article>
++    </section>
++    
++     <section>
++      <h2>Coding Video</h2>
++      <video width="320" height="240" controls>
++        <source src="MY-PORTFOLIO/videos/video1.mp4" type="video/mp4">
++        Your browser does not support video.
++      </video>
++    </section>
++  </main>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/videos/video1.mp4 b/MY-PORTFOLIO/videos/video1.mp4
+new file mode 100644
+index 0000000..75cb2fa
+Binary files /dev/null and b/MY-PORTFOLIO/videos/video1.mp4 differ
+diff --git a/MY-PORTFOLIO/videos/video2 copy.mp4 b/MY-PORTFOLIO/videos/video2 copy.mp4
+new file mode 100644
+index 0000000..75cb2fa
+Binary files /dev/null and b/MY-PORTFOLIO/videos/video2 copy.mp4 differ
+diff --git a/MY-PORTFOLIO/videos/video2.mp4 b/MY-PORTFOLIO/videos/video2.mp4
+new file mode 100644
+index 0000000..75cb2fa
+Binary files /dev/null and b/MY-PORTFOLIO/videos/video2.mp4 differ
+diff --git a/about.html b/about.html
+deleted file mode 100644
+index 57d7e70..0000000
+--- a/about.html
++++ /dev/null
+@@ -1,16 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-    <title>About</title>
+-
+-    <head>
+-        <h3>HIIIIIIIIII</h3>
+-        <p>WEB TECHNOLOGY</p>
+-    </head>
+-
+-<body>
+-    <p>lEARN MORE ABOUT US</p>
+-    <a href="index.html">Home</a>
+-</body>
+\ No newline at end of file
+diff --git a/final-lab-mini.html b/final-lab-mini.html
+new file mode 100644
+index 0000000..ae008b4
+--- /dev/null
++++ b/final-lab-mini.html
+@@ -0,0 +1,94 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <header>
++        
++    <h1>My Mini Website</h1>
++
++    <nav>
++        <a href="index.html">Home</a>
++        <a href="about.html">About</a>
++        <a href="skills.html">Skills</a>
++        <a href="education.html">Education</a>
++        <a href="contact.html">Contact</a>
++        
++    </nav>
++    
++    </header>
++
++    <main>
++        <h2>Welcome to my Website</h2>
++
++        <ul>
++            <li>Reading</li>
++            <li>Gaming</li>
++            <li>Coding</li>
++        </ul>
++
++    <h3>Here you will see my Schedule</h3>
++
++        <table>
++        <tr>
++            <th>Date</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++        <tr>
++            <td>Monday</td>
++            <td>7:30am</td>
++            <td>SOC SCIE 100</td>
++            <td>S230</td>
++            <td>Ms. Florida Dela Cruz</td>
++
++        </tr>
++        <tr>
++            <td>Tuesday</td>
++            <td>8:50am</td>
++            <td>CIT 1</td>
++            <td>U805</td>
++            <td>Marie Grace Ortiz</td>
++        </tr>
++        <tr>
++            <td>Wednesday</td>
++            <td>11:30am</td>
++            <td>CIT 14</td>
++            <td>M304</td>
++            <td>Leonard Prim Francis Reyes</td>
++        </tr>
++        <tr>
++            <td>Thursday</td>
++            <td>4:50pm</td>
++            <td>CC5</td>
++            <td>M305</td>
++            <td>Jessie Martinez</td>
++        </tr>
++        <tr>
++            <td>Friday</td>
++            <td>7:30am</td>
++            <td>SOC SCIE 100</td>
++            <td>S230</td>
++            <td>Ms. Florida Dela Cruz</td>
++        </tr>
++        <tr>
++            <td>Saturday</td>
++            <td>4:50pm</td>
++            <td>CC5</td>
++            <td>M305</td>
++            <td>Jessie Martinez</td>
++        </tr>
++    </table>
++
++
++    </main>
++
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 8f08a6d6c471ca92ce9657f6b431ea3c56d983ad
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 11:40:32 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 11:40:32 +0000
+
+    Html
+
+diff --git a/lab10.html b/lab10.html
+new file mode 100644
+index 0000000..e31be94
+--- /dev/null
++++ b/lab10.html
+@@ -0,0 +1,58 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Lab 10</h1>
++    <form action="#" method="post">
++
++        <label for="name">Name</label>
++        <input type="text" id="name" name="Enter your name:">
++
++        <label for="email">Email</label>
++        <input type="text" id="email" name="Enter your email:">
++
++        <label for="password">Password</label>
++        <input type="password" id="password" name="Enter your password:">
++
++        <br><br>
++
++        <label for="male">Male</label>
++        <input type="radio" name="gender" id="male" value="male">
++
++        <label for="female">Female</label>
++        <input type="radio" name="gender" id="female" value="female">
++
++        <br><br>
++
++        <br><br>
++
++        <label for="html">HTML</label>
++        <input type="checkbox" name="interest" id="html" value="male">
++
++        <label for="css">CSS</label>
++        <input type="checkbox" name="interest" id="css" value="css">
++
++        <br><br>
++
++        <lable for="course">Course</lable>
++        <select id="course" name="course">
++            <option value="web">Web</option>
++            <option value="cs">CS</option>
++            <option value="network">Network</option>
++        </select>
++
++        <br><br>
++
++        <label for="message">Message:</label><br>
++        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
++
++        <input type="submit" value="Submit">
++        <input type="reset" value="Clear">
++
++    </form>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/lists.html b/lists.html
+index 1bb0bb0..50f9263 100644
+--- a/lists.html
++++ b/lists.html
+@@ -2,17 +2,18 @@
+ <html lang="en">
+ 
+ <head>
+-    <meta charset="UTF-8">
+-    <title>List</title>
++<meta charset="UTF-8">
++<title>List</title>
+ </head>
+ 
+ <body>
+ 
+-    <h1>HTML List</h1>
++<h1>HTML List</h1>
+ 
+     <hr>
+     <h2>Unordered List</h2>
+     <P><b><ins>Favorite Food</b></P>
++
+     <ul>
+         <li>Pizza</li>
+         <li>Burger</li>
+@@ -35,19 +36,20 @@
+     <h3>Nested List</h3>
+     <ul>
+         <li><b>Programming</b></li>
+-        <ul>
+-            <li>Game</li>
+-            <li>Java</li>
+-            <li>C#</li>
+-        </ul>
++    <ul>
++        <li>Game</li>
++        <li>Java</li>
++        <li>C#</li>
++    </ul>
+         </li>
+-        <br>
++    <br>
++
+         <li><b>Web Development</b></li>
+-        <ol>
+-            <li>HTML</li>
+-            <li>CSS</li>
+-            <li>Javascript</li>
+-        </ol>
++    <ol>
++        <li>HTML</li>
++        <li>CSS</li>
++        <li>Javascript</li>
++    </ol>
+ 
+ 
+ </body>
+\ No newline at end of file
+diff --git a/multimedia.html b/multimedia.html
+new file mode 100644
+index 0000000..bc22e7c
+--- /dev/null
++++ b/multimedia.html
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Multimedia</title>
++</head>
++<body>
++
++    <h1>Multimedia</h1>
++    <h2>Image:</h2>
++
++    <img src="https://media.istockphoto.com/photos/programming-web-pages-with-html-and-css-code-on-a-desktop-computer-picture-id1408445036?b=1&k=20&m=1408445036&s=170667a&w=0&h=Xx5oLvNfWnReWYIu8ofOKVpbnBa1bMvSOc1ONgyISP0="
++    alt="Sample image" width="300">
++
++    <h2>Audio</h2>
++
++    <audio controls>
++        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
++    </audio>
++
++   <h2>Video</h2>
++
++   <video width="320" height="240" controls>
++        <source src="https://www.youtube.com/watch?v=qz0aGYrrlhU&t=3426s" type="video/mp4">
++   </video>
++
++   <h2>Embedded Page (iframe)</h2>
++
++   <iframe src="https://www.w3schools.com" width="400" height="250" title="Embedded page"></iframe>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 21cf9f8632e5786a157fc7f2f3904c8de6a70eb5
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:38:36 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:38:36 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/02-classes-ids.html b/emmet-labaratory/02-classes-ids.html
+index 6b37c4f..0409d17 100644
+--- a/emmet-labaratory/02-classes-ids.html
++++ b/emmet-labaratory/02-classes-ids.html
+@@ -139,5 +139,9 @@
+     </main>
+     <section id="about"></section>
+     <footer class="site-footer"></footer>
++
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, JavaScript, and web development.</p>
++  
+   </body>
+ </html>
+
+commit 4cddf47803d089037d5251364f6b70a6e13432d5
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:37:15 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:37:15 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/03-naviagtion.html b/emmet-labaratory/03-naviagtion.html
+index 441f7c3..5e4c4c5 100644
+--- a/emmet-labaratory/03-naviagtion.html
++++ b/emmet-labaratory/03-naviagtion.html
+@@ -57,5 +57,14 @@
+     <ul></ul>
+     <ul></ul>
+     <ul></ul>
++
++<nav>
++    <a href="#home">Home</a> |
++    <a href="#about">About Me</a> |
++    <a href="#skills">Skills</a> |
++    <a href="#projects">Projects</a> |
++    <a href="#contact">Contact</a>
++</nav>
++
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 107b69d733a06a634b9ed135650817e3639422d1
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:36:14 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:36:14 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/04-form.html b/emmet-labaratory/04-form.html
+index 77faaa8..43a9a22 100644
+--- a/emmet-labaratory/04-form.html
++++ b/emmet-labaratory/04-form.html
+@@ -1,9 +1,9 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>form</title>
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1.0">
++<title>form</title>
+ </head>
+ <body>
+     <input type="text">
+@@ -11,7 +11,7 @@
+     <input type="email" placeholder="Enter your email">
+     <img src="images/profile.jpg" alt="Profile Photo">
+     <a href="https://www.google.com">Google</a>
+-    
++
+ 
+     <input type="text" name="" id="">
+ 
+@@ -21,39 +21,39 @@
+     <input type="radio" name="" id="">
+     <input type="submit" value="">
+ 
+-    <h2>Student Registration Form</h2>
+-    <form>
+-        <input type="text" name="studentid">
+-        <br><br>
+-        <input type="text" name="fullname">
+-        <br><br>
+-        <input type="email" name="email">
+-        <br><br>
+-
+-        <input type="password" name="password">
+-        <br><br>
+-        <input type="radio" name="gender">
+-        <input type="radio" name="gender"> 
+-        <br><br>
+-
+-        <select name="course">
+-            <option>BSIT</option>
+-            <option>BSCS</option>
+-            <option>BSED</option>
+-            <option>BSBA</option>
+-        </select>
+-        <br><br>
+-
+-        <input type="checkbox"> Reading<br>
+-        <input type="checkbox"> Gaming<br>
+-        <input type="checkbox"> Sports<br>
+-        <input type="checkbox"> Music<br><br>
+-
+-        <br>
+-        <textarea name="address"></textarea>
+-        <br><br>
+-        <input type="submit" value="Submit">
+-    </form>
++<h2>Student Registration Form</h2>
++<form>
++    <input type="text" name="studentid">
++    <br><br>
++    <input type="text" name="fullname">
++    <br><br>
++    <input type="email" name="email">
++    <br><br>
++
++    <input type="password" name="password">
++    <br><br>
++    <input type="radio" name="gender">
++    <input type="radio" name="gender"> 
++    <br><br>
++
++    <select name="course">
++        <option>BSIT</option>
++        <option>BSCS</option>
++        <option>BSED</option>
++        <option>BSBA</option>
++    </select>
++    <br><br>
++
++    <input type="checkbox"> Reading<br>
++    <input type="checkbox"> Gaming<br>
++    <input type="checkbox"> Sports<br>
++    <input type="checkbox"> Music<br><br>
++
++    <br>
++    <textarea name="address"></textarea>
++    <br><br>
++    <input type="submit" value="Submit">
++</form>
+ 
+ </body>
+ </html>
+diff --git a/emmet-labaratory/05-semantic.html b/emmet-labaratory/05-semantic.html
+index b30e8c8..5d8e5b6 100644
+--- a/emmet-labaratory/05-semantic.html
++++ b/emmet-labaratory/05-semantic.html
+@@ -1,59 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>semantic</title>
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1.0">
++<title>semantic</title>
+ </head>
+ <body>
++<header>
++    <h1></h1>
++</header>
++
++<nav>
++    <ul>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++    </ul>
++</nav>
++
++<main>
++    <section>
++        <article></article>
++    </section>
++</main>
++
++<footer>
++    <p></p>
++</footer>
++
++<div class="container">
+     <header>
+-        <h1></h1>
++        <h1>My Portfolio</h1>
++        <p>Web Developer</p>
++        <nav>
++            <ul>
++                <li><a href="">Menu 1</a></li>
++                <li><a href="">Menu 2</a></li>
++                <li><a href="">Menu 3</a></li>
++                <li><a href="">Menu 4</a></li>
++            </ul>
++        </nav>
+     </header>
++</div>
++
++<div class="container"></div>
+ 
+-    <nav>
+-        <ul>
+-            <li><a href=""></a></li>
+-            <li><a href=""></a></li>
+-            <li><a href=""></a></li>
+-            <li><a href=""></a></li>
+-        </ul>
+-    </nav>
+-
+-    <main>
+-        <section>
+-            <article></article>
+-        </section>
+-    </main>
+-    
+-    <footer>
+-        <p></p>
+-    </footer>
+-
+-    <div class="container">
+-        <header>
+-            <h1>My Portfolio</h1>
+-            <p>Web Developer</p>
+-            <nav>
+-                <ul>
+-                    <li><a href="">Menu 1</a></li>
+-                    <li><a href="">Menu 2</a></li>
+-                    <li><a href="">Menu 3</a></li>
+-                    <li><a href="">Menu 4</a></li>
+-                </ul>
+-            </nav>
+-        </header>
+-    </div>
+-
+-    <div class="container"></div>
+-
+-    <nav>
+-        <ul>
+-            <li><a href="">Menu 1</a></li>
+-            <li><a href="">Menu 2</a></li>
+-            <li><a href="">Menu 3</a></li>
+-            <li><a href="">Menu 4</a></li>
+-        </ul>
+-    </nav>
++<nav>
++    <ul>
++        <li><a href="">Menu 1</a></li>
++        <li><a href="">Menu 2</a></li>
++        <li><a href="">Menu 3</a></li>
++        <li><a href="">Menu 4</a></li>
++    </ul>
++</nav>
+ 
+ 
+ </body>
+diff --git a/emmet-labaratory/index.html b/emmet-labaratory/index.html
+index 5a7d49b..2aec438 100644
+--- a/emmet-labaratory/index.html
++++ b/emmet-labaratory/index.html
+@@ -1,12 +1,12 @@
+ 
+ <DOCTYPE html>
+-    <html lang="en">
+-    <head>
+-        <meta charset="UTF-8">
+-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-        <title></title>
+-    </head>
+-    <body>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title></title>
++</head>
++<body>
+ 
+-    </body>
+-    </html>
+\ No newline at end of file
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-labaratory/portfolio.html b/emmet-labaratory/portfolio.html
+index 5e72198..857562d 100644
+--- a/emmet-labaratory/portfolio.html
++++ b/emmet-labaratory/portfolio.html
+@@ -1,116 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Portfolio</title>
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1.0">
++<title>Portfolio</title>
+ </head>
+ <body>
+-   
+-    <headr>
+-    <h1>Ken D. Fabros</h1>
+-    <p>My name is Ken and i'm a BSIT student.</p>
+-    </headr>
+-
+-    <nav>
+-        <a href="#home">Home</a> |
+-        <a href="#about">About Me</a> |
+-        <a href="#skills">Skills</a> |
+-        <a href="#projects">Projects</a> |
+-        <a href="#contact">Contact</a>
+-    </nav>
+-
+-    <hr>
+-
+-    <main>
+-
+-        <section id="home">
+-            <h2>Hello! I'm Ken Fabros</h2>
+-            <p>Welcome to my personal portfolio website.</p>
+-            <p>I am a student learning Web Technologies.</p>
+-        </section>
+-
+-        <hr>
+-
+-        <section id="about">
+-            <h2>About Me</h2>
+-            <p>
+-                My name is Ken Fabros I am a student who is
+-                interested in technology, programming, and
+-                website development.
+-            </p>
+-            <p>
+-                I enjoy learning and improving
+-                my skills in creating websites.
+-            </p>
+-        </section>
+-
+-        <hr>
+-
+-        <section id="skills">
+-            <h2>My Skills</h2>
+-            <ul>
+-                <li>HTML</li>
+-                <li>CSS</li>
+-                <li>JavaScript</li>
+-                <li>Computer Literacy</li>
+-                <li>Problem Solving</li>
+-            </ul>
+-        </section>
+-
+-        <hr>
+-
+-        <section id="projects">
+-            <h2>My Projects</h2>
+-
+-            <article>
+-                <h3>Project 1: Personal Website</h3>
+-                <p>personal website</p>
+-            </article>
+-
+-            <article>
+-                <h3>Project 2: Registration Form</h3>
+-                <p>registration form page</p>
+-            </article>
+-
+-            <article>
+-                <h3>Project 3: My First Portfolio</h3>
+-                <p>My personal skills</p>
+-            </article>
+-        </section>
+-
+-        <hr>
+-
+-        <section id="contact">
+-            <h2>Contact Me</h2>
+-
+-            <form>
+-                <label for="name">Full Name:</label>
+-                <input type="text" id="name" placeholder="Enter your name">
+-                <br><br>
+-
+-                <label for="email">Email:</label>
+-                <input type="email" id="email" placeholder="Enter your email">
+-                <br><br>
+-
+-                <label for="message">Message:</label>
+-                <br>
+-                <textarea id="message" rows="5" cols="30"
+-                    placeholder="Write your message"></textarea>
+-                <br><br>
+-
+-                <button type="submit">Send Message</button>
+-            </form>
+-        </section>
+-
+-    </main>
+-
+-    <hr>
+-
+-    <footer>
+-        <p>© 2026 My Personal Portfolio</p>
+-        <p>Thank you!</p>
+-    </footer>
++
++<headr>
++<h1>Ken D. Fabros</h1>
++<p>My name is Ken and i'm a BSIT student.</p>
++</headr>
++
++<nav>
++<a href="#home">Home</a> |
++<a href="#about">About Me</a> |
++<a href="#skills">Skills</a> |
++<a href="#projects">Projects</a> |
++<a href="#contact">Contact</a>
++</nav>
++
++<hr>
++
++<main>
++
++<section id="home">
++    <h2>Hello! I'm Ken Fabros</h2>
++    <p>Welcome to my personal portfolio website.</p>
++    <p>I am a student learning Web Technologies.</p>
++</section>
++
++<hr>
++
++<section id="about">
++    <h2>About Me</h2>
++    <p>
++        My name is Ken Fabros I am a student who is
++        interested in technology, programming, and
++        website development.
++    </p>
++    <p>
++        I enjoy learning and improving
++        my skills in creating websites.
++    </p>
++</section>
++
++<hr>
++
++<section id="skills">
++    <h2>My Skills</h2>
++    <ul>
++        <li>HTML</li>
++        <li>CSS</li>
++        <li>JavaScript</li>
++        <li>Computer Literacy</li>
++        <li>Problem Solving</li>
++    </ul>
++</section>
++
++<hr>
++
++<section id="projects">
++    <h2>My Projects</h2>
++
++    <article>
++        <h3>Project 1: Personal Website</h3>
++        <p>personal website</p>
++    </article>
++
++    <article>
++        <h3>Project 2: Registration Form</h3>
++        <p>registration form page</p>
++    </article>
++
++    <article>
++        <h3>Project 3: My First Portfolio</h3>
++        <p>My personal skills</p>
++    </article>
++</section>
++
++<hr>
++
++<section id="contact">
++    <h2>Contact Me</h2>
++
++    <form>
++        <label for="name">Full Name:</label>
++        <input type="text" id="name" placeholder="Enter your name">
++        <br><br>
++
++        <label for="email">Email:</label>
++        <input type="email" id="email" placeholder="Enter your email">
++        <br><br>
++
++        <label for="message">Message:</label>
++        <br>
++        <textarea id="message" rows="5" cols="30"
++            placeholder="Write your message"></textarea>
++        <br><br>
++
++        <button type="submit">Send Message</button>
++    </form>
++</section>
++
++</main>
++
++<hr>
++
++<footer>
++<p>© 2026 My Personal Portfolio</p>
++<p>Thank you!</p>
++</footer>
+ 
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 0900a4036cb3c6e456ce3329a835c728073668be
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:33:59 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:33:59 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/04-form.html b/emmet-labaratory/04-form.html
+index 1537211..77faaa8 100644
+--- a/emmet-labaratory/04-form.html
++++ b/emmet-labaratory/04-form.html
+@@ -7,7 +7,7 @@
+ </head>
+ <body>
+     <input type="text">
+-    <input type="text" placeholder="Ken Fabros">
++    <input type="text" placeholder="Enter your name">
+     <input type="email" placeholder="Enter your email">
+     <img src="images/profile.jpg" alt="Profile Photo">
+     <a href="https://www.google.com">Google</a>
+@@ -21,6 +21,42 @@
+     <input type="radio" name="" id="">
+     <input type="submit" value="">
+ 
++    <h2>Student Registration Form</h2>
++    <form>
++        <input type="text" name="studentid">
++        <br><br>
++        <input type="text" name="fullname">
++        <br><br>
++        <input type="email" name="email">
++        <br><br>
++
++        <input type="password" name="password">
++        <br><br>
++        <input type="radio" name="gender">
++        <input type="radio" name="gender"> 
++        <br><br>
++
++        <select name="course">
++            <option>BSIT</option>
++            <option>BSCS</option>
++            <option>BSED</option>
++            <option>BSBA</option>
++        </select>
++        <br><br>
++
++        <input type="checkbox"> Reading<br>
++        <input type="checkbox"> Gaming<br>
++        <input type="checkbox"> Sports<br>
++        <input type="checkbox"> Music<br><br>
++
++        <br>
++        <textarea name="address"></textarea>
++        <br><br>
++        <input type="submit" value="Submit">
++    </form>
++
++</body>
++</html>
+ 
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 48b85f2ca8a305b7629a25a4529332fe030c13a1
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:24:10 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:24:10 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/portfolio.html b/emmet-labaratory/portfolio.html
+index 0b071f6..5e72198 100644
+--- a/emmet-labaratory/portfolio.html
++++ b/emmet-labaratory/portfolio.html
+@@ -6,30 +6,111 @@
+     <title>Portfolio</title>
+ </head>
+ <body>
+-    
++   
++    <headr>
+     <h1>Ken D. Fabros</h1>
+-    <p>My name is Ken and i am a BSIT student.</p>
++    <p>My name is Ken and i'm a BSIT student.</p>
++    </headr>
+ 
+     <nav>
+-        <ul>
+-            <li><a href="index.html">home</a></li>
+-        </ul>
+-        <ul>
+-            <li><a href="about.html">about</a></li>
+-        </ul>
+-        <ul>
+-            <li><a href="skills.html"></a></li>
+-        </ul>
+-        <ul>
+-            <li><a href="project.html"></a></li>
+-        </ul>
+-        <ul>
+-            <li><a href="contact.html"></a></li>
+-        </ul>
+-
++        <a href="#home">Home</a> |
++        <a href="#about">About Me</a> |
++        <a href="#skills">Skills</a> |
++        <a href="#projects">Projects</a> |
++        <a href="#contact">Contact</a>
+     </nav>
+ 
+-    <section id=
++    <hr>
++
++    <main>
++
++        <section id="home">
++            <h2>Hello! I'm Ken Fabros</h2>
++            <p>Welcome to my personal portfolio website.</p>
++            <p>I am a student learning Web Technologies.</p>
++        </section>
++
++        <hr>
++
++        <section id="about">
++            <h2>About Me</h2>
++            <p>
++                My name is Ken Fabros I am a student who is
++                interested in technology, programming, and
++                website development.
++            </p>
++            <p>
++                I enjoy learning and improving
++                my skills in creating websites.
++            </p>
++        </section>
++
++        <hr>
++
++        <section id="skills">
++            <h2>My Skills</h2>
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>JavaScript</li>
++                <li>Computer Literacy</li>
++                <li>Problem Solving</li>
++            </ul>
++        </section>
++
++        <hr>
++
++        <section id="projects">
++            <h2>My Projects</h2>
++
++            <article>
++                <h3>Project 1: Personal Website</h3>
++                <p>personal website</p>
++            </article>
++
++            <article>
++                <h3>Project 2: Registration Form</h3>
++                <p>registration form page</p>
++            </article>
++
++            <article>
++                <h3>Project 3: My First Portfolio</h3>
++                <p>My personal skills</p>
++            </article>
++        </section>
++
++        <hr>
++
++        <section id="contact">
++            <h2>Contact Me</h2>
++
++            <form>
++                <label for="name">Full Name:</label>
++                <input type="text" id="name" placeholder="Enter your name">
++                <br><br>
++
++                <label for="email">Email:</label>
++                <input type="email" id="email" placeholder="Enter your email">
++                <br><br>
++
++                <label for="message">Message:</label>
++                <br>
++                <textarea id="message" rows="5" cols="30"
++                    placeholder="Write your message"></textarea>
++                <br><br>
++
++                <button type="submit">Send Message</button>
++            </form>
++        </section>
++
++    </main>
++
++    <hr>
++
++    <footer>
++        <p>© 2026 My Personal Portfolio</p>
++        <p>Thank you!</p>
++    </footer>
+ 
+ </body>
+ </html>
+\ No newline at end of file
+
+commit cbdfa21f51dc7f7fb062cc4735c668ded9ecf361
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 04:19:15 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 04:19:15 +0000
+
+    Emmet
+
+diff --git a/emmet-labaratory/03-naviagtion.html b/emmet-labaratory/03-naviagtion.html
+new file mode 100644
+index 0000000..441f7c3
+--- /dev/null
++++ b/emmet-labaratory/03-naviagtion.html
+@@ -0,0 +1,61 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Navigation</title>
++</head>
++<body>
++    <ul>
++        <li class>item</li>
++        <li class>item/li>
++        <li class>item</li>
++        <li class>item</li>
++        <li class>item</li>
++    </ul>
++<ul>
++    <li class="item1"></li>
++    <li class="item2"></li>
++    <li class="item3"></li>
++    <li class="item4"></li>
++    <li class="item5"></li>
++</ul>
++
++<ul>
++    <li>Menu 1</li>
++    <li>Menu 2</li>
++    <li>Menu 3</li>
++    <li>Menu 4</li>
++    <li>Menu 5</li>
++</ul>
++
++<nav>
++    <ul>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++        <li><a href=""></a></li>
++    </ul>
++</nav>
++
++<ul>
++    <li><a href=""></a></li>
++</ul>
++
++<nav>
++    <ul>
++        <li><a href="">Menu 1</a></li>
++        <li><a href="">Menu 2</a></li>
++        <li><a href="">Menu 3</a></li>
++        <li><a href="">Menu 4</a></li>
++        <li><a href="">Menu 5</a></li>
++    </ul>
++</nav>
++
++    <ul></ul>
++    <ul></ul>
++    <ul></ul>
++    <ul></ul>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-labaratory/04-form.html b/emmet-labaratory/04-form.html
+new file mode 100644
+index 0000000..1537211
+--- /dev/null
++++ b/emmet-labaratory/04-form.html
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>form</title>
++</head>
++<body>
++    <input type="text">
++    <input type="text" placeholder="Ken Fabros">
++    <input type="email" placeholder="Enter your email">
++    <img src="images/profile.jpg" alt="Profile Photo">
++    <a href="https://www.google.com">Google</a>
++    
++
++    <input type="text" name="" id="">
++
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-labaratory/05-semantic.html b/emmet-labaratory/05-semantic.html
+new file mode 100644
+index 0000000..b30e8c8
+--- /dev/null
++++ b/emmet-labaratory/05-semantic.html
+@@ -0,0 +1,60 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>semantic</title>
++</head>
++<body>
++    <header>
++        <h1></h1>
++    </header>
++
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++
++    <main>
++        <section>
++            <article></article>
++        </section>
++    </main>
++    
++    <footer>
++        <p></p>
++    </footer>
++
++    <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a></li>
++                    <li><a href="">Menu 2</a></li>
++                    <li><a href="">Menu 3</a></li>
++                    <li><a href="">Menu 4</a></li>
++                </ul>
++            </nav>
++        </header>
++    </div>
++
++    <div class="container"></div>
++
++    <nav>
++        <ul>
++            <li><a href="">Menu 1</a></li>
++            <li><a href="">Menu 2</a></li>
++            <li><a href="">Menu 3</a></li>
++            <li><a href="">Menu 4</a></li>
++        </ul>
++    </nav>
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-labaratory/portfolio.html b/emmet-labaratory/portfolio.html
+new file mode 100644
+index 0000000..0b071f6
+--- /dev/null
++++ b/emmet-labaratory/portfolio.html
+@@ -0,0 +1,35 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Portfolio</title>
++</head>
++<body>
++    
++    <h1>Ken D. Fabros</h1>
++    <p>My name is Ken and i am a BSIT student.</p>
++
++    <nav>
++        <ul>
++            <li><a href="index.html">home</a></li>
++        </ul>
++        <ul>
++            <li><a href="about.html">about</a></li>
++        </ul>
++        <ul>
++            <li><a href="skills.html"></a></li>
++        </ul>
++        <ul>
++            <li><a href="project.html"></a></li>
++        </ul>
++        <ul>
++            <li><a href="contact.html"></a></li>
++        </ul>
++
++    </nav>
++
++    <section id=
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 581a8519a37e5d468433002c885fb31ef63fa7be
+Author:     android7ten r <kendsfabros@outlook.com>
+AuthorDate: 2026-11-07 11:45:32 +0800
+Commit:     android7ten r <kendsfabros@outlook.com>
+CommitDate: 2026-11-07 11:45:32 +0800
+
+    FABROS, KEN
+
+diff --git a/emmet-labaratory/01-basic.html b/emmet-labaratory/01-basic.html
+new file mode 100644
+index 0000000..5e2994e
+--- /dev/null
++++ b/emmet-labaratory/01-basic.html
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++    <html lang="en">
++    <head>
++        <meta charset="UTF-8">
++        <meta name="viewport" content="width=device-width, initial-scale=1.0">
++        <title>Basic</title>
++    </head>
++        <h1>Basic</h1>
++        <h2>Basic</h2>
++        <p>This is a simple paragraph.</p>
++        <p>This is another paragraph.</p>
++        <div>
++            <p>This is a paragraph inside a div.</p>
++            <p>div doesn't have any special meaning</p>
++        </div>
++        <header>
++            <h1>This is a header</h1>
++        </header>
++        <section section="section-class">
++            <p>This section just group things together</p>
++        </section>
++        <footer>
++            <p>This is a footer</p>
++            <p>The footer element represents a footer for its nearest ancestor sectioning content or sectioning root element. A footer typically contains information about its section such as who wrote it, links to related documents, copyright data, and the like.
++            Widely available across major browsers (Baseline since 2015) MDN Reference</p>
++        </footer>
++
++        <nav> This is nav! </nav>
++        <main> This is main! </main>
++        <span> This is span! </span>
++    <body>  
++    </body>
++    </html>
+\ No newline at end of file
+diff --git a/emmet-labaratory/02-classes-ids.html b/emmet-labaratory/02-classes-ids.html
+new file mode 100644
+index 0000000..6b37c4f
+--- /dev/null
++++ b/emmet-labaratory/02-classes-ids.html
+@@ -0,0 +1,143 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Classes and IDs</title>
++  </head>
++  <style>
++    .no-markers {
++      list-style-type: none;
++      padding-left: 20px;
++      margin: 0;
++    }
++    .no-markers li {ssss
++      padding-left: 10px;
++      
++    }
++  </style>
++  
++
++  <body>
++    <header class="site-header"></header>
++
++    <nav id="main-nav">
++      <ul>
++        <li>a</li>
++        <li>a</li>
++        <li>a</li>
++      </ul>
++    </nav>
++
++    <main class="content">
++
++      <h1>
++        <p>
++          <li></li>
++          <li></li>
++          <li></li>
++          <li></li>
++          <li></li>
++          <li></li>
++          <li></li>
++        </p>
++      </h1>
++
++      <h2>
++        <div>
++          <p></p>
++          <p></p>
++          <p></p>
++          <p></p>
++          <p></p>
++        </div>
++
++        <div></div>
++        <div></div>
++        <div></div>
++        <div></div>
++
++      </h2>
++
++      <h1>Web Techonologies</h1>
++      <p>Welcome to my homepage</p>
++
++      <h1>My Web Development Journey</h1>
++      <p>I am learning HTML, CSS, Javascript, and Web development.</p>
++      <ul class="no-markers">
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++      </ul>
++      <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++      </ul>
++      <br />
++      <nav>
++        <ul class="no-markers">
++          <li><a href="">Menu 1</a></li>
++          <li><a href="">Menu 2</a></li>
++          <li><a href="">Menu 3</a></li>
++          <li><a href="">Menu 4</a></li>
++          <li><a href="">Menu 5</a></li>
++        </ul>
++      </nav>
++      <br />
++      <hr />
++      <nav>
++        <ul class="no-markers">
++          <li><a href="Home">Home</a></li>
++          <li><a href="About">About</a></li>
++          <li><a href="Portfolio">Portfolio</a></li>
++          <li><a href="Services">Services</a></li>
++          <li><a href="Contact">Contact</a></li>
++        </ul>
++      </nav>
++      <hr />
++      <br />
++
++      <input type="text" />
++      <br />
++      <br /><input type="text" placeholder="Enter your name" /> <br /><input
++        type="email"
++        placeholder="Enter your email"
++      />
++      <br /><br /><img src="images/profile.jpg" alt="Profile Photo" />
++      <a href="https://google.com">Google</a>
++
++      <hr />
++      <div>
++        <br />
++        <input
++          type="email"
++          name="Email"
++          id="email"
++          placeholder="Enter your Email"
++        />
++        <br /><br />
++        <input
++          type="password"
++          name="Password"
++          id="password"
++          placeholder="Enter your Password"
++        />
++        <br /><br />
++        <input type="checkbox" name="Checkbox" id="checkbox" value="" />
++        <label for="checkbox">Female</label>
++        <input type="radio" name="ID" id="id" />
++        <label for="id">Male</label>
++
++        <input type="submit" value="Submit" />
++        <br />
++      </div>
++    </main>
++    <section id="about"></section>
++    <footer class="site-footer"></footer>
++  </body>
++</html>
+diff --git a/emmet-labaratory/index.html b/emmet-labaratory/index.html
+new file mode 100644
+index 0000000..5a7d49b
+--- /dev/null
++++ b/emmet-labaratory/index.html
+@@ -0,0 +1,12 @@
++
++<DOCTYPE html>
++    <html lang="en">
++    <head>
++        <meta charset="UTF-8">
++        <meta name="viewport" content="width=device-width, initial-scale=1.0">
++        <title></title>
++    </head>
++    <body>
++
++    </body>
++    </html>
+\ No newline at end of file
+
+commit eed80700f967d3f8e30955497009c0989c063f80
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-10-01 03:30:13 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-10-01 03:30:13 +0000
+
+    submit
+
+diff --git a/about.html b/about.html
+index 92f371e..57d7e70 100644
+--- a/about.html
++++ b/about.html
+@@ -1,16 +1,16 @@
+ <!DOCTYPE html>
+ <html lang="en">
+-    
++
+ <head>
+     <meta charset="UTF-8">
+     <title>About</title>
+-    
++
+     <head>
+         <h3>HIIIIIIIIII</h3>
+         <p>WEB TECHNOLOGY</p>
+     </head>
+-    <body>
+-        <p>lEARN MORE ABOUT US</p>
+-        <a href = "index.html">Home</a>
+-    </body>
+-    
+\ No newline at end of file
++
++<body>
++    <p>lEARN MORE ABOUT US</p>
++    <a href="index.html">Home</a>
++</body>
+\ No newline at end of file
+diff --git a/formmatting.html b/formmatting.html
+index c65bc4e..11dc8d1 100644
+--- a/formmatting.html
++++ b/formmatting.html
+@@ -1,63 +1,66 @@
+ <!DOCTYPE html>
+ <html lang="en">
+-<style> 
++<style>
+     .center-text {
+         text-align: center;
+     }
+ </style>
+ 
+-    <hr>
+-    <head>
+-        <meta charset="UTF-8">
+-        <meta name ="viewport" = content="width-device, initial-scale=1.0">
+-        <title>HTML Text Formating </title>
+-    </head>
+-            <h1 class = "center-text">HTML Text Formating</h1>        
+-    <hr>
+-            <body>
+-        <p> 
+-            <strong style ="text-indent: 40px;">Hello</strong> this is my first <strong>HTML</strong> Formatting.
+-           <br>
+-           <br>
+-           s
++<hr>
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport"=content="width-device, initial-scale=1.0">
++    <title>HTML Text Formating </title>
++</head>
++<h1 class="center-text">HTML Text Formating</h1>
++<hr>
++
++<body>
++    <p>
++        <strong style="text-indent: 40px;">Hello</strong> this is my first <strong>HTML</strong> Formatting.
++        <br>
++        <br>
++        s
+         <!--Important text-->
+-            <p>This is  <strong>"important text"</strong> </p>
++    <p>This is <strong>"important text"</strong> </p>
++
++    <!--Bold text-->
++    <p>Demonstration on how <b>BOLD text</b> is implemented. Make <b>visually bold</b>.</p>
++
++    <!--Italic text-->
++    <p>This is <i>"Italic Text"</i> that display an italic style.</p>
+ 
+-        <!--Bold text-->    
+-            <p>Demonstration on how <b>BOLD text</b> is implemented. Make <b>visually bold</b>.</p>
++    <!--Emphasize text-->
++    <p>This display <em>emphasis and act normally as italics</em></p>
+ 
+-        <!--Italic text-->
+-            <p>This is <i>"Italic Text"</i> that display an italic style.</p>
++    <!--Underlined text-->
++    <p>This <u>underlines texts</u></p>
+ 
+-        <!--Emphasize text-->
+-            <p>This display <em>emphasis and act normally as italics</em></p>
++    <!--Highlighted text-->
++    <p>This highlight text like <mark>THE WORLD IS FULL OF UNEXPECTATION</mark>.</p>
+ 
+-        <!--Underlined text-->
+-            <p>This <u>underlines texts</u></p>
++    <!--Small text-->
++    <p>This is <small>small text</small> compared to this.</p>
+ 
+-        <!--Highlighted text-->
+-            <p>This highlight text like <mark>THE WORLD IS FULL OF UNEXPECTATION</mark>.</p>
++    <!--Deleted text-->
++    <p>This display <del>deleted text</del>.</p>
+ 
+-        <!--Small text-->
+-            <p>This is <small>small text</small> compared to this.</p>
++    <!--Inserted text-->
++    <p>This indicaed <ins>that has been added simillar to underlined.</ins></p>
+ 
+-        <!--Deleted text-->
+-            <p>This display <del>deleted text</del>.</p>
++    <!--Subscript text-->
++    <p>H <sub>2</sub>O</p>
+ 
+-        <!--Inserted text-->
+-            <p>This indicaed <ins>that has been added simillar to underlined.</ins></p>
++    <!--Superscript text-->
++    <p>E = A <sup>2</sup></p>
+ 
+-        <!--Subscript text-->
+-            <p>H <sub>2</sub>O</p>
++    <h2>
++        Challenge:
++    </h2>
++    <p>Try to solve this challenge</p>
++    <P>Solve <ins><b>Einstein's equatiom:</b></ins> E = mc<sup> 2</sup> and show your solution</P>
++    <p>For example this <i><strong>Power</strong> of</i><sub> 1 2 3 4</sub> </p>
++</body>
+ 
+-        <!--Superscript text-->
+-            <p>E = A <sup>2</sup></p>
+-            
+-            <h2>
+-                Challenge:
+-            </h2>
+-            <p>Try to solve this challenge</p>
+-            <P>Solve <ins><b>Einstein's equatiom:</b></ins> E = mc<sup> 2</sup> and show your solution</P>
+-            <p>For example this <i><strong>Power</strong> of</i><sub> 1 2 3 4</sub> </p>
+-        </body>
+ </html>
+\ No newline at end of file
+diff --git a/images.html b/images.html
+index 51e8515..84eb38e 100644
+--- a/images.html
++++ b/images.html
+@@ -3,7 +3,7 @@
+ 
+ <head>
+     <meta charset="UTF-8">
+-     <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <meta name="viewport" content="width=device-width,initial-scale=1" />
+     <title>Images</title>
+ 
+     <style>
+@@ -21,17 +21,20 @@
+ <body>
+ 
+     <h1>LAB ACTIVITY 5: IMAGES</h>
+-    <p><small href = "#About Me">Life is Manageable<small></p>
+-    <section class="profile-card">
+-        <a href="about.html" target="_blank"></a>
++        <hr>
++        <p><small href="#About Me">Life is Manageable<small></p>
++        <hr>
++        <section class="profile-card">
++            <a href="about.html" target="_blank"></a>
+             <img src="https://dl.dropboxusercontent.com/scl/fi/5gpq1ocmeb1zabsiigu1z/Screenshot-2025-12-03-233450.webp?rlkey=v5riw1ehsouhigcm5q8yb7v53&st=0p5vtfq4&dl=0"
+                 alt="Art Work Photo" width="200" height="240" </a>
+             </a>
+-            
++
++
+             <h1>About Me</h1>
+             <p>Ken D. Fabros</p>
+ 
+-    </section>
++        </section>
+ </body>
+ 
+ </html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index 9bc1e0b..b9bb670 100644
+--- a/index.html
++++ b/index.html
+@@ -1,10 +1,11 @@
+ <!DOCTYPE html>
+ <html lang="en">
+-    
++
+ <head>
+     <meta charset="UTF-8">
+     <title>My First Web Page</title>
+ </head>
++
+ <body>
+     <h1>Ken Fabros</h1>
+     <h2>I am a Student taking my Bachelor Degree in Information Technology</h2>
+diff --git a/links.html b/links.html
+index 15d32d5..e35a22e 100644
+--- a/links.html
++++ b/links.html
+@@ -1,44 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+-    
++
+ <head>
+     <meta charset="UTF-8">
+     <title>Links and Navigations</title>
+-    
++
+     <head>
+ 
+     </head>
+ 
+-    <body>
++<body>
+ 
+     <br>
+     <hr>
+-
+-    <h1>External Links</h1>
+-        <hr>    
+-    <ul>
+-        <a href ="index.html"> Home </a>
+-        <la>
+-            <br><a href ="about.html">About</a></la>
+-        <la>
+-            <br><a href ="contact.html">Contact</a></la>
++    <h1>LAB ACTIVITY 4: Links and NavigatioN</h>
++        <h1>External Links</h1>
++        <hr>
++        <ul>
++            <a href="index.html"> Home </a>
++            <la>
++                <br><a href="about.html">About</a>
++            </la>
++            <la>
++                <br><a href="contact.html">Contact</a>
++            </la>
++        </ul>
++        <hr>
++        <h2>Internal Links</h2>
++        <hr>
++        <ul>
++
++            <la>
++                <a href="https://www.google.com/?safe=active&ssui=on">Google</a>
++            </la>
++            <la>
++                <br><a href="https://youtube.com">Youtube</a>
++            </la>
++            <la>
++                <br><a href="https://github.com/">Github</a>
++            </la>
+         </ul>
+-    <hr>
+-    <h2>Internal Links</h2>
+         <hr>
+-    <ul>
+-
+-    <la>
+-        <a href = "https://www.google.com/?safe=active&ssui=on">Google</a></la>
+-    <la>   
+-        <br><a href = "https://youtube.com">Youtube</a></la>
+-    <la>
+-        <br><a href = "https://github.com/">Github</a></la>
+-    </ul>
+-    <hr>
+-
+-    
+-    </body>
+-
+ 
+ 
++</body>
+\ No newline at end of file
+diff --git a/lists.html b/lists.html
+index 0a0db94..1bb0bb0 100644
+--- a/lists.html
++++ b/lists.html
+@@ -1,51 +1,53 @@
+ <!DOCTYPE html>
+ <html lang="en">
+-    
++
+ <head>
+     <meta charset="UTF-8">
+     <title>List</title>
+ </head>
++
+ <body>
++
+     <h1>HTML List</h1>
+ 
+-        <hr>
+-<h2>Unordered List</h2>
++    <hr>
++    <h2>Unordered List</h2>
+     <P><b><ins>Favorite Food</b></P>
+-     <ul>
++    <ul>
+         <li>Pizza</li>
+         <li>Burger</li>
+         <li>Spaghetti</li>
+         <li>Coke</li>
+         <li>Fried Chicken</li>
+-     </ul>
+-        <hr>
+-<h2>Ordered List</h2>
++    </ul>
++    <hr>
++    <h2>Ordered List</h2>
+ 
+     <P><b><ins>Top 5 Programming Language</b></P>
+-     <ol>
++    <ol>
+         <li>Javascript</li>
+         <li>Python</li>
+         <li>Java</li>
+         <li>PHP</li>
+         <li>C#</li>
+-     </ol>
+-        <hr>     
+-<h3>Nested List</h3>     
+-     <ul>
++    </ol>
++    <hr>
++    <h3>Nested List</h3>
++    <ul>
+         <li><b>Programming</b></li>
+         <ul>
+-                <li>Game</li>
+-                <li>Java</li>
+-                <li>C#</li>
+-            </ul>
+-                </li>
+-             <br>
+-            <li><b>Web Development</b></li> 
+-            <ol>
+-                <li>HTML</li>
+-                <li>CSS</li>
+-                <li>Javascript</li>  
++            <li>Game</li>
++            <li>Java</li>
++            <li>C#</li>
++        </ul>
++        </li>
++        <br>
++        <li><b>Web Development</b></li>
++        <ol>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>Javascript</li>
+         </ol>
+-        
+-        
++
++
+ </body>
+\ No newline at end of file
+diff --git a/registration.html b/registration.html
+new file mode 100644
+index 0000000..e257dc1
+--- /dev/null
++++ b/registration.html
+@@ -0,0 +1,105 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <title>forms</title>
++    <style>
++        .center-text {
++            text-align: center;
++        }
++
++        .profile-card {
++            text-align: center;
++            margin-top: 50px;
++        }
++
++        textarea {
++            width: 100%;
++            padding: 10px;
++            border: 1px solid #ccc;
++            border-radius: 4px;
++            box-sizing: border-box;
++            font-size: 14px;
++    </style>
++
++
++<body>
++    <h1>LAB ACTIVITY 7: HTML Forms</h1>
++    <form action="#" method="post">
++        <hr><br>
++        <div>
++            <label for="fullname">Full Name:</label>
++            <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" minlength="3"
++                maxlength="100">
++        </div>
++
++        <br>
++
++        <div>
++            <label for="studentid">Student ID:</label>
++            <input type="text" id="studentid" name="studentid" placeholder="25-xxxx-xxx" required minlength="6"
++                maxlength="20">
++        </div>
++
++        <br><br>
++        <hr><br>
++
++        <div>
++            <label for="email">Email:</label>
++            <input type="email" id="email" name="email" placeholder="sample@gmail.com">
++        </div>
++
++        <br>
++
++        <div>
++            <label for"password">Password: </label>
++            <input type="password" id="password" name="password" placeholder="Enter your password" required
++                minlength="6" maxlength="100">
++        </div>
++
++        <br>
++
++        <label for"password">Birthday: </label>
++        <input type="date" id="birthday name=" birthday" placeholder="Enter password" required minlength="6">
++        </div>
++        <br>
++
++        <br>
++        <div>
++            <label>Gender</label>
++            <input type="radio" id="male" name="gender" value="Male" required>
++            <label for="male">Male</label>
++            <input type="radio" id="female" name="gender" value="Female" required>
++            <label for="male">Female</label>
++            <input type="radio" id="other" name="gender" value="Other" required>
++            <label for="male">Other</label>
++
++        </div><br>
++        <div>
++            <label>Program</label>
++            <input type="program" id="program" name="program" placeholder="Enter your program" required>
++        </div>
++
++        <div>
++            <label>Address</label>
++            <input type="address" id="address name=" address" placeholder="Enter your address" required>
++        </div>
++        <br>
++        <hr>
++        <br>
++        <button type="submit">Submit</button>
++        <button type="reset">Reset</button>
++        <br><br>
++        <hr>
++        <div class="form-group">
++            <label for="comments">Comments / Bio</label>
++            <textarea id="comments" name="comments" rows="3"
++                placeholder="Any additional comments or notes..."></textarea>
++        </div>
++
++    </form>
++
++
++</body>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..cca3a33
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1,81 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <title>schedule</title>
++    <style>
++        .center-text {
++            text-align: center;
++        }
++
++        table {
++            border-collapse: collapse;
++            width: 100%;
++        }
++
++        th,
++        td {
++            border: 1px solid black;
++            padding: 8px;
++            text align: left;
++        }
++    </style>
++</head>
++
++<body>
++    <h1>SCHEDULE TABLE: LAB ACT 6</h1>
++    <table>
++        <tr>
++            <th>Date</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++        <tr>
++            <td>Monday</td>
++            <td>7:30am</td>
++            <td>SOC SCIE 100</td>
++            <td>S230</td>
++            <td>Ms. Florida Dela Cruz</td>
++
++        </tr>
++        <tr>
++            <td>Tuesday</td>
++            <td>8:50am</td>
++            <td>CIT 1</td>
++            <td>U805</td>
++            <td>Marie Grace Ortiz</td>
++        </tr>
++        <tr>
++            <td>Wednesday</td>
++            <td>11:30am</td>
++            <td>CIT 14</td>
++            <td>M304</td>
++            <td>Leonard Prim Francis Reyes</td>
++        </tr>
++        <tr>
++            <td>Thursday</td>
++            <td>4:50pm</td>
++            <td>CC5</td>
++            <td>M305</td>
++            <td>Jessie Martinez</td>
++        </tr>
++        <tr>
++            <td>Friday</td>
++            <td>7:30am</td>
++            <td>SOC SCIE 100</td>
++            <td>S230</td>
++            <td>Ms. Florida Dela Cruz</td>
++        </tr>
++        <tr>
++            <td>Saturday</td>
++            <td>4:50pm</td>
++            <td>CC5</td>
++            <td>M305</td>
++            <td>Jessie Martinez</td>
++        </tr>
++    </table>
++</body>
+\ No newline at end of file
+
+commit 9c06c45aa009eeeb0040c58f543a13ea41571531
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-10-01 03:29:52 +0000
+Commit:     Elfany36 <kendsfabros@outlook.com>
+CommitDate: 2026-10-01 03:29:52 +0000
+
+    new
+
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..51e8515
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <title>Images</title>
++
++    <style>
++        .center-text {
++            text-align: center;
++        }
++
++        .profile-card {
++            text-align: center;
++            margin-top: 50px;
++        }
++    </style>
++</head>
++
++<body>
++
++    <h1>LAB ACTIVITY 5: IMAGES</h>
++    <p><small href = "#About Me">Life is Manageable<small></p>
++    <section class="profile-card">
++        <a href="about.html" target="_blank"></a>
++            <img src="https://dl.dropboxusercontent.com/scl/fi/5gpq1ocmeb1zabsiigu1z/Screenshot-2025-12-03-233450.webp?rlkey=v5riw1ehsouhigcm5q8yb7v53&st=0p5vtfq4&dl=0"
++                alt="Art Work Photo" width="200" height="240" </a>
++            </a>
++            
++            <h1>About Me</h1>
++            <p>Ken D. Fabros</p>
++
++    </section>
++</body>
++
++</html>
+\ No newline at end of file
+
+commit 11013cc594e91b1962b400b104e865950a91b095
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-09-22 11:49:00 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:49:00 +0800
+
+    Add files via upload
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..92f371e
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,16 @@
++<!DOCTYPE html>
++<html lang="en">
++    
++<head>
++    <meta charset="UTF-8">
++    <title>About</title>
++    
++    <head>
++        <h3>HIIIIIIIIII</h3>
++        <p>WEB TECHNOLOGY</p>
++    </head>
++    <body>
++        <p>lEARN MORE ABOUT US</p>
++        <a href = "index.html">Home</a>
++    </body>
++    
+\ No newline at end of file
+diff --git a/formmatting.html b/formmatting.html
+new file mode 100644
+index 0000000..c65bc4e
+--- /dev/null
++++ b/formmatting.html
+@@ -0,0 +1,63 @@
++<!DOCTYPE html>
++<html lang="en">
++<style> 
++    .center-text {
++        text-align: center;
++    }
++</style>
++
++    <hr>
++    <head>
++        <meta charset="UTF-8">
++        <meta name ="viewport" = content="width-device, initial-scale=1.0">
++        <title>HTML Text Formating </title>
++    </head>
++            <h1 class = "center-text">HTML Text Formating</h1>        
++    <hr>
++            <body>
++        <p> 
++            <strong style ="text-indent: 40px;">Hello</strong> this is my first <strong>HTML</strong> Formatting.
++           <br>
++           <br>
++           s
++        <!--Important text-->
++            <p>This is  <strong>"important text"</strong> </p>
++
++        <!--Bold text-->    
++            <p>Demonstration on how <b>BOLD text</b> is implemented. Make <b>visually bold</b>.</p>
++
++        <!--Italic text-->
++            <p>This is <i>"Italic Text"</i> that display an italic style.</p>
++
++        <!--Emphasize text-->
++            <p>This display <em>emphasis and act normally as italics</em></p>
++
++        <!--Underlined text-->
++            <p>This <u>underlines texts</u></p>
++
++        <!--Highlighted text-->
++            <p>This highlight text like <mark>THE WORLD IS FULL OF UNEXPECTATION</mark>.</p>
++
++        <!--Small text-->
++            <p>This is <small>small text</small> compared to this.</p>
++
++        <!--Deleted text-->
++            <p>This display <del>deleted text</del>.</p>
++
++        <!--Inserted text-->
++            <p>This indicaed <ins>that has been added simillar to underlined.</ins></p>
++
++        <!--Subscript text-->
++            <p>H <sub>2</sub>O</p>
++
++        <!--Superscript text-->
++            <p>E = A <sup>2</sup></p>
++            
++            <h2>
++                Challenge:
++            </h2>
++            <p>Try to solve this challenge</p>
++            <P>Solve <ins><b>Einstein's equatiom:</b></ins> E = mc<sup> 2</sup> and show your solution</P>
++            <p>For example this <i><strong>Power</strong> of</i><sub> 1 2 3 4</sub> </p>
++        </body>
++</html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..9bc1e0b
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++    
++<head>
++    <meta charset="UTF-8">
++    <title>My First Web Page</title>
++</head>
++<body>
++    <h1>Ken Fabros</h1>
++    <h2>I am a Student taking my Bachelor Degree in Information Technology</h2>
++    <h3>My Hobbies</h3>
++    <h4>I do enjoy gaming, coding, and doing art.</h4>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..15d32d5
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,44 @@
++<!DOCTYPE html>
++<html lang="en">
++    
++<head>
++    <meta charset="UTF-8">
++    <title>Links and Navigations</title>
++    
++    <head>
++
++    </head>
++
++    <body>
++
++    <br>
++    <hr>
++
++    <h1>External Links</h1>
++        <hr>    
++    <ul>
++        <a href ="index.html"> Home </a>
++        <la>
++            <br><a href ="about.html">About</a></la>
++        <la>
++            <br><a href ="contact.html">Contact</a></la>
++        </ul>
++    <hr>
++    <h2>Internal Links</h2>
++        <hr>
++    <ul>
++
++    <la>
++        <a href = "https://www.google.com/?safe=active&ssui=on">Google</a></la>
++    <la>   
++        <br><a href = "https://youtube.com">Youtube</a></la>
++    <la>
++        <br><a href = "https://github.com/">Github</a></la>
++    </ul>
++    <hr>
++
++    
++    </body>
++
++
++
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..0a0db94
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++    
++<head>
++    <meta charset="UTF-8">
++    <title>List</title>
++</head>
++<body>
++    <h1>HTML List</h1>
++
++        <hr>
++<h2>Unordered List</h2>
++    <P><b><ins>Favorite Food</b></P>
++     <ul>
++        <li>Pizza</li>
++        <li>Burger</li>
++        <li>Spaghetti</li>
++        <li>Coke</li>
++        <li>Fried Chicken</li>
++     </ul>
++        <hr>
++<h2>Ordered List</h2>
++
++    <P><b><ins>Top 5 Programming Language</b></P>
++     <ol>
++        <li>Javascript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++     </ol>
++        <hr>     
++<h3>Nested List</h3>     
++     <ul>
++        <li><b>Programming</b></li>
++        <ul>
++                <li>Game</li>
++                <li>Java</li>
++                <li>C#</li>
++            </ul>
++                </li>
++             <br>
++            <li><b>Web Development</b></li> 
++            <ol>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Javascript</li>  
++        </ol>
++        
++        
++</body>
+\ No newline at end of file
+
+commit 4f658dfbf99242e4b2d31358f9763ae6e648a52d
+Author:     Elfany36 <kendsfabros@outlook.com>
+AuthorDate: 2026-09-17 11:40:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 11:40:16 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..b407ac5
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# WebTech
+\ No newline at end of file
